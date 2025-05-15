@@ -1,59 +1,62 @@
-MNIST Handwritten Digit Recognition
+🔢 MNIST Handwritten Digit Recognition
 Show Image
-Project Description
+📝 Project Description
 This project implements a deep learning model using Convolutional Neural Networks (CNN) to recognize handwritten digits from the MNIST dataset. The model classifies grayscale images of digits (0-9) with high accuracy.
-Features
+✨ Features
 
-Uses CNN architecture for image classification
-Trains on the MNIST dataset
-Evaluates model performance with accuracy and loss metrics
-Supports prediction on custom handwritten digit images
+🧠 Uses CNN architecture for image classification
+📊 Trains on the MNIST dataset
+📈 Evaluates model performance with accuracy and loss metrics
+🖼️ Supports prediction on custom handwritten digit images
 
-Table of Contents
+📋 Table of Contents
 
 Installation
 Usage
 Dataset
 Model Architecture
 Results
+Contributing
+License
 
-Installation
+🔧 Installation
 
 Clone the repository
+bashgit clone https://github.com/yourusername/mnist-digit-recognition.git
 cd mnist-digit-recognition
 
 Install required dependencies:
-pip install -r requirements.txt
+bashpip install -r requirements.txt
 
 
-Usage
-Training the Model
+🚀 Usage
+🏋️ Training the Model
 Run the training script:
 bashpython train.py
-Evaluating the Model
+📊 Evaluating the Model
 Evaluate the model on the test set:
 bashpython evaluate.py
-Making Predictions
+🔍 Making Predictions
 Predict digits on custom images:
 bashpython predict.py --image path/to/your/image.png
-Dataset
+📚 Dataset
 The MNIST dataset is automatically downloaded via TensorFlow/Keras datasets module. It contains:
 
-60,000 training images
-10,000 test images
-28x28 pixel grayscale images
-10 classes (digits 0-9)
+6️⃣0️⃣,0️⃣0️⃣0️⃣ training images
+1️⃣0️⃣,0️⃣0️⃣0️⃣ test images
+2️⃣8️⃣x2️⃣8️⃣ pixel grayscale images
+1️⃣0️⃣ classes (digits 0-9)
 
-Model Architecture
+🏗️ Model Architecture
 The CNN model consists of:
 
-Convolutional layers for feature extraction
-Max pooling layers for dimensionality reduction
-Dropout layers to prevent overfitting
-Dense layers for classification
+🔍 Convolutional layers for feature extraction
+🏊 Max pooling layers for dimensionality reduction
+🎭 Dropout layers to prevent overfitting
+🧠 Dense layers for classification
 
-Results
-The model achieves around 99% accuracy on the test set.
+📊 Results
+The model achieves around 9️⃣9️⃣% accuracy on the test set.
 Example confusion matrix:
 [[ 980    0    1    0    0    1    1    0    1    0]
  [   0 1134    1    0    0    0    0    0    0    0]
